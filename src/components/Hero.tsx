@@ -2,7 +2,6 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
-import { motion } from "framer-motion"
 import Link from 'next/link'
 
 
@@ -32,10 +31,9 @@ function Hero({ }: Props) {
                 </h1>
 
                 <div className='pt-5'>
-                    <Link href={'#about'}><button className='hero-btn'>About</button></Link>
-                    <Link href={'#experience'}> <button className='hero-btn'>Experience</button></Link>
-                    <Link href={'#experience'}>  <button className='hero-btn'>Skills</button></Link>
-                    <Link href={'#experience'}>          <button className='hero-btn'>Projects</button></Link>
+                    <a href='#about'><button className='hero-btn'>About</button></a>
+                    <a href='#skills'><button className='hero-btn'>Skills</button></a>
+                    <a href='#projects'> <button className='hero-btn'>Projects</button></a>
 
 
 
