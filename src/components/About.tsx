@@ -31,14 +31,14 @@ function About({ }: Props) {
                 }}
                 viewport={{ once: true }}
                 src='https://res.cloudinary.com/dsvs2bgn4/image/upload/v1674479066/main_aq4l31.jpg'
-                className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 object-cover  rounded-full md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+                className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 object-cover  rounded-full md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]'
             />
 
             <div
 
                 className=' space-y-10 px-0 md:px-10'>
                 <h4 className='text-4xl font-semibold'>Here is a <span className='underline decoration-[#f7ab0a]/50'>little</span> background</h4>
-                <p className='text-base'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, eum at mollitia obcaecati officiis blanditiis enim vitae iste fugit, dignissimos veniam. Ratione ut sapiente recusandae cum. Adipisci hic eius omnis aut dicta asperiores delectus corporis dolorum quo doloribus, molestias repellendus ad ipsum, harum similique vel quod mollitia, suscipit autem quos?</p>
+                <p className='text-base'>Hi, my name is Oren Sharizad, 24 years old, I finished a bootcamp of 640 hours in Coding Academy and since then I don't stop learning and developing, I'm glad you came here and you can see what projects I built</p>
             </div>
 
         </motion.div>

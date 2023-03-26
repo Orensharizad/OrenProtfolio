@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { motion } from "framer-motion"
+import SkillList from './SkillList '
 
 type Props = {}
 
@@ -10,14 +11,17 @@ function Skills({ }: Props) {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
-            className='h-screen flex relative overflow-hidden flex-col  md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'>
+            className='flex relative flex-col text-center  md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
+
+
             <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl '>
-                Experience
-
+                Skills
             </h3>
-            <div>
+            <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm' >My Skills</h3>
 
-            </div>
+
+            <SkillList />
+
 
         </motion.div>
     )

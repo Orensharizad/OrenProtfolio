@@ -27,6 +27,8 @@ function Header({ }: Props) {
 
                 className='flex items-center'>
                 <SocialIcon fgColor='gray' bgColor='transparent' url="https://www.linkedin.com/in/oren-sharizad-107719236/" />
+                <SocialIcon fgColor='gray' bgColor='transparent' url="https://github.com/Orensharizad/OrenSharizad" />
+                <SocialIcon fgColor='gray' bgColor='transparent' url="https://www.instagram.com/oren_sharizad/" />
             </motion.div>
             <motion.div
                 initial={{
@@ -44,13 +46,16 @@ function Header({ }: Props) {
                 }}
 
                 className='flex items-center text-gray-300 cursor-pointer'>
+
                 <SocialIcon
                     className='cursor-pointer'
                     network='email'
                     fgColor='gray'
                     bgColor='transparent'
+
                 />
                 <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get In Toche</p>
+
             </motion.div>
 
         </header>
